@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dc3545;
+}
+
+.navbar-nav .nav-link {
+    color: #717275;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dc3545;
+    transition: 0.3ms;
+}
+
+.btn {
+    background-color: #dc3545;
+    padding: 10px 35px;
+    margin-right: 80px;
+} 
+
+.site-header {
+    background-image: url(images/header/ccc.jpg), linear-gradient(to top, #000000, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    background-blend-mode: overlay;
+}
+
+.col-lg-10.col-12.mx-auto {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.col-lg-10 h1 {
+    font-weight: 600;
+    font-size: 56px;
+    margin: 0px 0px 8px;
+    color: #ffffff;
+}
+
+.col-lg-10 strong {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.col-12 h2 {
+    margin: 0px 0px 24px;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.form-label {
+    font-size: 16px;
+    color: #717275;
+    margin: 0px 0px 8px;
+}
+
+.col-lg-4 h5 {
+    font-size: 26px;
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.mb-lg-3 {
+    font-size: 16px;
+    color: #212529;
+    margin: 0px 0px 16px;
+}
+
+.d-flex {
+    justify-content: space-between;
+}
+
+.mb-lg-3 p {
+    color: #717275;
+    font-size: 18px;
+    margin: 0px 0px 16px;
+}
+
+.d-flex p {
+    color: #717275;
+    font-size: 18px;
+    margin: 0px 0px 16px;
+}
+
+.custom-form button[type="submit"] {
+    background-color: #000000;
+    border: 0;
+    color: #f9f9f9;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 50px;
+
+}
+
+.custom-form .form-control {
+    margin-bottom: 20px;
+    padding: 14px 10px;
+    transition: all 0.3s;
+}
+
+.site-footer a {
+    color: #aaa;
+}
+
+.site-footer p {
+    color: #aaaaaa;
+    font-size: 18px;
+    margin: 0px 0px 16px;
+}
+
+.site-footer {
+    background-image: url(images/ss.jpg), linear-gradient(to top, #000, transparent 200%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    background-blend-mode: overlay;
+}
+
+.site-footer .col-12 {
+    margin-bottom: 50px;
+}
+
+.site-footer a {
+    color: #aaa;
+}
+
+.site-footer p {
+    color: #ccc;
+    font-size: 18px;
+    margin: 0 0 16px 0;
+    font-family: sans-serif;
+}
+
+.col-lg-4 .text-white {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.custom-btn {
+    margin: 8px 0 0;
+    padding: 10px 35px;
+    background-color: #717275;
+    color: white;
+}
+
+.social-icon {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.social-icon a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: none;
+}
+
+.social-icon a:hover {
+    color: #ccc;
+}
+
+.copyright-text {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.copyright-text a {
+    color: #aaa;
+}
+
+.copyright-text a:hover {
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .site-header {
+        height: 50vh; 
+    }
+    
+    .col-lg-10.col-12.mx-auto {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .col-lg-10 h1 {
+        font-size: 36px; 
+        margin: 0px 0px 8px;
+    }
+
+    .col-lg-10 strong {
+        font-size: 12px; 
+    }
+
+    .section-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .col-12 h2 {
+        font-size: 28px; 
+    }
+
+    .custom-form .form-control {
+        padding: 12px 8px; 
+    }
+
+    .custom-form button[type="submit"] {
+        font-size: 14px; 
+        padding: 12px 20px; 
+    }
+
+    .col-lg-6.col-12 {
+        margin-bottom: 30px; 
+    }
+
+    .col-lg-4 h5 {
+        font-size: 22px;
+    }
+
+    .d-flex p {
+        font-size: 16px;
+    }
+
+    .social-icon a {
+        margin-bottom: 10px;
+    }
+
+    .site-footer {
+        height: auto;
+    }
+
+    .site-footer .col-12 {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .col-lg-4 .text-white {
+        font-size: 24px;
+    }
+
+    .site-footer p {
+        font-size: 16px;
+    }
+
+    .custom-btn {
+        padding: 8px 25px; 
+    }
+
+    .google-map iframe {
+        height: 200px; 
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
+}
