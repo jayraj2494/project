@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f5f0e1;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 26px;
+    color: #2b2b2b;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navbar-nav .nav-link {
+    color: #555555;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dc3545;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: #dc3545;
+}
+
+.btn {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin-left: auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b52b3a;
+}
+
+.site-header {
+    background-image: url(images/header/aaa.jpg), linear-gradient(to top, #000000, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    background-blend-mode: overlay;
+}
+
+.site-header .col-lg-10 {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.site-header .col-lg-10 h1 {
+    font-weight: 600;
+}
+
+.site-header .col-lg-10 strong {
+    font-weight: 600;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.about h4 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.custom-btn.btn.btn-dark.mt-3 {
+    color: #ffffff;
+    background-color: #212529;
+    font-size: 18px;
+}
+
+.custom-btn.btn.btn-danger.mt-3 {
+    color: #ffffff;
+    background-color: #dc3545;
+    font-size: 18px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #717275;
+    margin: 0px 0px 16px;
+}
+
+.about strong {
+    font-weight: bold;
+    color: #717275;
+}
+
+.about a {
+    color: #f3af24;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.about h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 48px;
+}
+
+.team-info .mt-3.mb-0 {
+    font-size: 24px;
+    color: #000;
+}
+
+.team-info p {
+    color: #717275;
+    font-size: 18px;
+}
+
+.team-thumb p {
+    color: #717275;
+    font-size: 18px;
+}
+
+.newsletter-image {
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.about .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.about .mb-0 {
+    font-size: 24px;
+    color: #000;
+}
+
+.subscribe-form-wrap p {
+    font-size: 18px;
+    color: #717275;
+}
+
+.subscribe-form .form-control {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.custom-form .form-control {
+    margin-bottom: 20px;
+    padding: 14px 10px;
+    transition: all 0.3s;
+}
+
+.custom-form button[type="submit"] {
+    background: #000;
+    border: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.custom-form.subscribe-form.mt-4 small {
+    color: #212529;
+    font-size: 14px;
+}
+
+.site-footer a {
+    color: #aaa;
+}
+
+.site-footer p {
+    color: #aaaaaa;
+    font-size: 18px;
+    margin: 0px 0px 16px;
+}
+
+.site-footer {
+    background-image: url(images/ss.jpg), linear-gradient(to top, #000, transparent 200%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    background-blend-mode: overlay;
+}
+
+.site-footer .col-12 {
+    margin-bottom: 50px;
+}
+
+.site-footer a {
+    color: #aaa;
+}
+
+.site-footer p {
+    color: #ccc;
+    font-size: 18px;
+    margin: 0 0 16px 0;
+    font-family: sans-serif;
+}
+
+.site-fotter .col-lg-4 .text-white {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.custom-btn {
+    margin: 8px 0 0;
+    padding: 10px 35px;
+    background-color: #717275;
+    color: white;
+}
+
+.social-icon {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.social-icon a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.social-icon a:hover {
+    color: #ccc;
+}
+
+.copyright-text {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.copyright-text a {
+    color: #aaa;
+}
+
+.copyright-text a:hover {
+    color: #fff;
+}
+
+
+
+@media (max-width: 1024px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav {
+        justify-content: center;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .site-header {
+        height: 60vh;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .site-header .col-lg-10 {
+        margin-top: 150px;
+    }
+
+    .site-header h1 {
+        font-size: 32px;
+    }
+
+    .site-header strong {
+        font-size: 16px;
+    }
+
+    .about h4 {
+        font-size: 20px;
+    }
+
+    .custom-btn.btn.btn-dark.mt-3,
+    .custom-btn.btn.btn-danger.mt-3 {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .team-info .mt-3.mb-0 {
+        font-size: 20px;
+    }
+
+    .team-info p,
+    .team-thumb p {
+        font-size: 16px;
+    }
+
+    .newsletter-image {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .subscribe-form-wrap p {
+        font-size: 16px;
+    }
+
+    .custom-form .form-control {
+        font-size: 14px;
+    }
+
+    .custom-form button[type="submit"] {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .site-footer {
+        height: auto;
+        padding: 60px 40px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .site-footer .col-lg-4 {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 40px;
+    }
+
+    .site-footer .col-12 {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .site-footer p,
+    .site-footer a,
+    .copyright-text {
+        font-size: 16px;
+    }
+
+    .social-icon {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 24px;
+    }
+
+    .custom-btn {
+        padding: 10px 28px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .navbar-toggler {
+        display: block !important;
+        margin-left: auto;
+        z-index: 2;
+    }
+
+    .collapse {
+        width: 100%;
+        overflow: hidden;
+        height: 0;
+    }
+
+    .collapse.show {
+        display: block;
+        height: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .btn {
+        width: 40%;
+        margin: 0;
+    }
+
+    .site-header {
+        background-size: cover;
+        background-position: top center;
+        height: 50vh;
+    }
+
+    .site-header .col-lg-10 {
+        margin-top: 120px;
+    }
+
+    .site-header .col-lg-10 h1 {
+        font-size: 28px;
+    }
+
+    .site-about-header strong {
+        font-size: 14px;
+    }
+
+    .about h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .custom-btn.btn.btn-dark.mt-3,
+    .custom-btn.btn.btn-danger.mt-3 {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+
+    .about p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about .img-fluid {
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .team-info .mt-3.mb-0 {
+        font-size: 18px;
+    }
+
+    .team-info p,
+    .team-thumb p {
+        font-size: 14px;
+    }
+
+    .newsletter-image {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .subscribe-form {
+        text-align: center;
+    }
+
+    .subscribe-form-wrap p {
+        font-size: 14px;
+    }
+
+    .custom-form .form-control {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .custom-form button[type="submit"] {
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+
+    .site-footer {
+        padding: 50px 20px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .site-footer .col-lg-4,
+    .site-footer .col-md-7,
+    .site-footer .col-md-5,
+    .site-footer .col-md-6 {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .site-footer .col-lg-4 .text-white {
+        font-size: 22px;
+    }
+
+    .social-icon li a {
+        font-size: 20px;
+    }
+
+    .custom-btn {
+        width: 50%;
+        max-width: 250px;
+        margin: 12px auto;
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+
+    .site-footer p,
+    .site-footer a {
+        font-size: 15px;
+    }
+
+    .copyright-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn{
+        width: 100%;
+    }
+    
+    .site-header {
+        background-size: cover;
+        background-position: top center;
+        height: 40vh;
+    }
+
+    .section-padding {
+        padding: 20px 0;
+    }
+
+    .site-header .col-lg-10 {
+        margin-top: 100px;
+        /* Adjust for small screens */
+    }
+
+    .site-header .col-lg-10 h1 {
+        font-size: 24px;
+    }
+
+    .about h4 {
+        font-size: 16px;
+    }
+
+    .custom-btn.btn.btn-dark.mt-3,
+    .custom-btn.btn.btn-danger.mt-3 {
+        font-size: 14px;
+        padding: 8px 15px;
+        margin: 0;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about h2 {
+        font-size: 22px;
+    }
+
+    .team-info .mt-3.mb-0 {
+        font-size: 16px;
+    }
+
+    .team-info p,
+    .team-thumb p {
+        font-size: 12px;
+    }
+
+    .newsletter-image {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .subscribe-form-wrap p {
+        font-size: 12px;
+    }
+
+    .custom-form .form-control {
+        font-size: 12px;
+    }
+
+    .custom-form button[type="submit"] {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .site-footer {
+        height: auto;
+    }
+
+    .site-footer .col-lg-4 .text-white {
+        font-size: 24px;
+    }
+
+    .site-footer p {
+        font-size: 16px;
+    }
+
+    .custom-btn {
+        padding: 8px 25px;
+    }
+
+    .google-map iframe {
+        height: 200px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
+}

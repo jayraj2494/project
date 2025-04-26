@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>Crispy kitchen</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-md m-3">
+            <a class="navbar-brand text-dark" href="#">Crispy Kitchen</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class='bx bx-menu'></i>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./story.html">Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./our.html">Our Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn text-white">Reservation</button>
+            </div>
+        </nav>
+    </header>
+
+    <header class="site-header site-about-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-10 col-12 mx-auto">
+                    <h1 class="text-white">Say Hi</h1>
+                    <strong class="text-white">We are happy to get in touch with you</strong>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="contact section-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h2 class="mb-4">Leave a message</h2>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <form class="custom-form contact-form row" action="#" method="post" role="form">
+                        <div class="col-lg-6 col-6">
+                            <label for="contact-name" class="form-label">Full Name</label>
+
+                            <input type="text" name="contact-name" id="contact-name" class="form-control"
+                                placeholder="Your Name" required="" fdprocessedid="dexinu">
+                        </div>
+
+                        <div class="col-lg-6 col-6">
+                            <label for="contact-phone" class="form-label">Phone Number</label>
+
+                            <input type="telephone" name="contact-phone" id="contact-phone"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="123-456-7890"
+                                fdprocessedid="nyq93m">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="contact-email" class="form-label">Email</label>
+
+                            <input type="email" name="contact-email" id="contact-email" pattern="[^ @]*@[^ @]*"
+                                class="form-control" placeholder="Your Email" required="" fdprocessedid="is23kp">
+
+                            <label for="contact-message" class="form-label">Message</label>
+
+                            <textarea class="form-control" rows="5" id="contact-message" name="contact-message"
+                                placeholder="Your Message"></textarea>
+                        </div>
+
+                        <div class="col-lg-12 col-12 d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary m-0">Send</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-4 col-12 mx-auto mt-lg-5 mt-4">
+
+                    <h5>Weekdays</h5>
+
+                    <div class="d-flex mb-lg-3 ">
+                        <p>Monday to Friday</p>
+
+                        <p class="ms-5">10:00 AM - 08:00 PM</p>
+                    </div>
+
+                    <h5>Weekends</h5>
+
+                    <div class="d-flex">
+                        <p>Saturday and Sunday</p>
+
+                        <p class="ms-5">11:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <h4 class="mt-5 mb-4">121 Einstein Loop N, Bronx, NY 10475, United States</h4>
+
+                    <div class="google-map pt-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14920.891757756479!2d-73.83496372506556!3d40.8623107607295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28cbc17f4a0c3%3A0x9ae0f1e804a817d!2s121%20Einstein%20Loop%20N%2C%20Bronx%2C%20NY%2010475%2C%20USA!5e0!3m2!1sen!2sth!4v1650470337727!5m2!1sen!2sth"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer section-padding">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12">
+                    <h4 class="text-white">Crispy Kitchen</h4>
+                </div>
+
+                <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+
+                    <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
+
+                    <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" class="custom-btn btn btn-dark mt-2">Directions</a>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+
+                    <p class="mb-2">Monday - Friday</p>
+
+                    <p>10:00 AM - 08:00 PM</p>
+
+                    <p>Tel: <a href="tel: 010-02-0340" class="tel-link">010-02-0340</a></p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Social</h6>
+
+                    <ul class="social-icon">
+                        <li><a href="#" class="bx bxl-facebook-circle"></a></li>
+
+                        <li><a href="#" class="bx bxl-instagram"></a></li>
+
+                        <li><a href="#" class="bx bxl-twitter"></a></li>
+
+                        <li><a href="#" class="bx bxl-youtube"></a></li>
+                    </ul>
+
+                    <p class="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
+                        <br>Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>
